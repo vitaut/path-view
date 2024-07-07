@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "configurePresets": [
+      {
+        "name": "default",
+        "generator": "Ninja",
+        "binaryDir": "${sourceDir}/build",
+        "cacheVariables": {
+          "CMAKE_TOOLCHAIN_FILE": "/Users/viz/work/vcpkg/scripts/buildsystems/vcpkg.cmake"
+        }
+      }
+    ]
+  }
